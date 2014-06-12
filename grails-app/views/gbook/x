@@ -1,0 +1,7 @@
+  function updateAuxForm(e){
+         var result=eval( e.responseJSON  )
+      if(result.data){
+      $('auxform').innerHTML=result.data;
+   showLayer('closeaux') ;
+      }
+}

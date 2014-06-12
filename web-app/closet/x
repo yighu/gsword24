@@ -1,0 +1,6 @@
+<div id="closet_root"> </div>
+<script src="http://connect.facebook.net/en_US/all.js" charset="utf-8">
+</script>
+<script>
+	FB.init({appId:'1622244821333488', status:true,cookie:true,xfbml:true});
+</script>
