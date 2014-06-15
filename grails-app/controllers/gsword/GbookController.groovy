@@ -1730,9 +1730,9 @@ println "in readstyledtext:"+bookInitials+" "+key
     //def link=""
     //def description=""
     render(feedType: "rss", feedVersion: "2.0") {
-      title = "GSword Daily Devotion"
-      link = "http://rock.ccim.org/gsword/gbook/feed"
-      description = "GSword Daily Devotion"
+       title = "GSword Daily Devotion"
+       link = "http://rock.ccim.org/gsword/gbook/feed"
+       description = "GSword Daily Devotion"
       entry("Streams in the Desert") {
         title = "Streams in the Desert"
         link = "http://rock.ccim.org/gsword/gbook/v"

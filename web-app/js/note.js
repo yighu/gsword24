@@ -7,7 +7,7 @@ new Ajax.Request('/gsword/note/takenote', {
       		$('noteform').innerHTML=result.data;
   	}
 }});
-return false;
+//return false;
 }
 
 

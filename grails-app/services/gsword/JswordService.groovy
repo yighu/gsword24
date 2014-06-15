@@ -187,7 +187,7 @@ public void toindexBook(Book book){
 try{
  def indxer=new BookIndexer(book)
  if (!indxer.isIndexed()){
-	indxer.createIndex();
+	//indxer.createIndex();
 	}
 }catch (Exception e){
 println "index exception "
@@ -207,7 +207,7 @@ println "index exception "
       def rst = ""
     Book book = getBook(bookInitials);
 println "do index..."
-	toindexBook(book);
+	//toindexBook(book);
 
 println "done index..."
 	if (isIndexedb(book)){
