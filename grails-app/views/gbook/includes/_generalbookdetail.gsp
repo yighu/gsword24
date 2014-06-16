@@ -104,9 +104,9 @@
       <g:message code="books" />
      <g:if test="${bibles}">
             <g:each in="${bibles}" status ="i" var="b">
-            <a href="bible://${b.shortname}"  id="b${b}" onClick='return setChaps(&quot;${b.key}&quot;);'>
+            <button id="b${b}" onClick='return setChaps(&quot;${b.key}&quot;);'>
              ${b.shortname}
-           </a>
+           </button>
             </g:each>
 
              </g:if>

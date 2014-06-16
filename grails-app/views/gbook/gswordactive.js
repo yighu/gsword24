@@ -192,8 +192,7 @@ for (i = 0; i < dd.nchaps; i++) {
   newOption.text=1+i;
   newOption.value=1+i;
   $('chapters').options[i] = new Option(newOption.text,newOption.value);
-  chps=chps+" <a href=\"bible://"+book+(1+i) ;
-    chps=chps+" \" onclick='return readChap(&quot;"+book +" "+(1+i) +"&quot;);'>"+(1+i)+"</a> " ;
+  chps=chps+"<button onclick='return readChap(&quot;"+book +" "+(1+i) +"&quot;);'>"+(1+i)+"</button>" ;
 }
  $('chapters').length = dd.nchaps+1;
  $('chaps').innerHTML=chps;
@@ -211,8 +210,7 @@ for (i = 0; i < dd.nchaps; i++) {
   newOption.text=1+i;
   newOption.value=1+i;
   $('chapters').options[i] = new Option(newOption.text,newOption.value);
-  chps=chps+" <a href=\"bible://"+book+(1+i) ;
-    chps=chps+" \" onclick='return readChap(&quot;"+book +" "+(1+i) +"&quot;);'>"+(1+i)+"</a> " ;
+  chps=chps+"<button onclick='return readChap(&quot;"+book +" "+(1+i) +"&quot;);'>"+(1+i)+"</button>" ;
 }
  $('chapters').length = dd.nchaps+1;
  $('chaps').innerHTML=chps;
